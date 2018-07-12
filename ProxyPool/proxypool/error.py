@@ -4,4 +4,4 @@ class PoolEmptyError(Exception):
         Exception.__init__(self)
 
     def __str__(self):
-        return repr("代理池已经枯竭")
+        return repr('代理池已经枯竭')
