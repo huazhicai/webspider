@@ -1,5 +1,5 @@
 from scrapy.spiders import Rule
-from scrapy.linkextractor import LinkExtractor
+from scrapy.linkextractors import LinkExtractor
 
 from scrapy_redis.spiders import RedisCrawlSpider
 
