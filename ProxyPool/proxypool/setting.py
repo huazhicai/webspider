@@ -17,12 +17,12 @@ INITIAL_SCORE = 12
 VALID_STATUS_CODES = [200, 302]
 
 # 代理池数量界限
-POOL_UPPER_THRESHOLD = 500
+POOL_UPPER_THRESHOLD = 5000
 
 # 检查周期
 TESTER_CYCLE = 10
 # 获取周期
-GETTER_CYCLE = 60
+GETTER_CYCLE = 300
 
 # 测试API，建议抓哪个网站测哪个
 TEST_URL = 'http://www.baidu.com'
