@@ -1,3 +1,6 @@
+"""
+数据存取
+"""
 import redis
 from proxypool.error import PoolEmptyError
 from proxypool.setting import REDIS_HOST, REDIS_PORT, REDIS_PASSWORD, REDIS_KEY

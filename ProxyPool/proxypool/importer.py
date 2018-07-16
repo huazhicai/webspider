@@ -1,3 +1,6 @@
+"""
+手动输入ip导入数据库
+"""
 from proxypool.db import RedisClient
 
 conn = RedisClient()

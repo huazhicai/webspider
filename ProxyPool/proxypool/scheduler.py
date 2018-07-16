@@ -7,7 +7,7 @@ from proxypool.db import RedisClient
 from proxypool.setting import *
 
 
-class Scheduler():
+class Scheduler(object):
     def schedule_tester(self, cycle=TESTER_CYCLE):
         """
         定时测试代理
@@ -24,7 +24,7 @@ class Scheduler():
         """
         getter = Getter()
         while True:
-            print('开始抓取代理')
+            print('****** 开始抓取代理 ******')
             getter.run()
             time.sleep(cycle)
     

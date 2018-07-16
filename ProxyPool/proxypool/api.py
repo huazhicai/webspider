@@ -1,3 +1,7 @@
+"""
+接口模块：PROXY_POOL_URL = 'http://localhost:5555/random'
+获取随机代理供爬虫使用
+"""
 from flask import Flask, g
 
 from .db import RedisClient

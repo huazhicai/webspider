@@ -1,5 +1,11 @@
+"""
+爬取模块：爬取各网站免费代理ip
+"""
 import json
 import re
+
+import requests
+
 from .utils import get_page
 from pyquery import PyQuery as pq
 
@@ -32,7 +38,7 @@ class Crawler(object, metaclass=ProxyMetaclass):
     #         for url in urls:
     #             yield url
 
-    def crawl_daili66(self, page_count=4):
+    def crawl_daili66(self, page_count=5):
         """
         获取代理66
         :param page_count: 页码
@@ -41,77 +47,105 @@ class Crawler(object, metaclass=ProxyMetaclass):
         start_url = 'http://www.66ip.cn/{}.html'
         urls = [start_url.format(page) for page in range(1, page_count + 1)]
         for url in urls:
-            print('Crawling', url)
             html = get_page(url)
             if html:
                 doc = pq(html)
                 trs = doc('.containerbox table tr:gt(0)').items()
                 for tr in trs:
                     ip = tr.find('td:nth-child(1)').text()
+                    # 选择属于其父元素的第二个子元素的每个 <td> 元素。
                     port = tr.find('td:nth-child(2)').text()
                     yield ':'.join([ip, port])
+            else:
+                break
 
-    def crawl_proxy360(self):
+    def crawl_mimiip(self, page_count=5):
         """
-        获取Proxy360
+        获取代理
         :return: 代理
         """
-        start_url = 'http://www.proxy360.cn/Region/China'
-        print('Crawling', start_url)
-        html = get_page(start_url)
-        if html:
-            doc = pq(html)
-            lines = doc('div[name="list_proxy_ip"]').items()
-            for line in lines:
-                ip = line.find('.tbBottomLine:nth-child(1)').text()
-                port = line.find('.tbBottomLine:nth-child(2)').text()
-                yield ':'.join([ip, port])
+        start_url = 'http://www.mimiip.com/gngao/{}'
+        urls = [start_url.format(page) for page in range(1, page_count + 1)]
+        for url in urls:
+            html = get_page(url)
+            if html:
+                doc = pq(html)
+                trs = doc('.list tbody tr:gt(0)').items()
+                for tr in trs:
+                    ip = tr.find('td:nth-child(1)').text()
+                    port = tr.find('td:nth-child(2)').text()
+                    yield ':'.join([ip, port])
+            else:
+                break
 
-    def crawl_goubanjia(self):
-        """
-        获取Goubanjia
-        :return: 代理
-        """
-        start_url = 'http://www.goubanjia.com/free/gngn/index.shtml'
-        html = get_page(start_url)
-        if html:
-            doc = pq(html)
-            tds = doc('td.ip').items()
-            for td in tds:
-                td.find('p').remove()
-                yield td.text().replace(' ', '')
+
+    # def crawl_proxy360(self):
+    #     """
+    #     获取Proxy360
+    #     :return: 代理
+    #     """
+    #     start_url = 'http://www.proxy360.cn/Region/China'
+    #     print('Crawling', start_url)
+    #     html = get_page(start_url)
+    #     if html:
+    #         doc = pq(html)
+    #         lines = doc('div[name="list_proxy_ip"]').items()
+    #         for line in lines:
+    #             ip = line.find('.tbBottomLine:nth-child(1)').text()
+    #             port = line.find('.tbBottomLine:nth-child(2)').text()
+    #             yield ':'.join([ip, port])
+
+    # def crawl_goubanjia(self):
+    #     """
+    #     获取Goubanjia
+    #     :return: 代理
+    #     """
+    #     start_url = 'http://www.goubanjia.com/free/gngn/index.shtml'
+    #     html = get_page(start_url)
+    #     if html:
+    #         doc = pq(html)
+    #         tds = doc('td.ip').items()
+    #         for td in tds:
+    #             td.find('p').remove()
+    #             yield td.text().replace(' ', '')
 
     def crawl_ip181(self):
         start_url = 'http://www.ip181.com/'
-        html = get_page(start_url)
-        ip_address = re.compile('<tr.*?>\s*<td>(.*?)</td>\s*<td>(.*?)</td>')
-        # \s* 匹配空格，起到换行作用
-        re_ip_address = ip_address.findall(html)
-        for address, port in re_ip_address:
-            result = address + ':' + port
-            yield result.replace(' ', '')
+        html = requests.get(start_url)
+        if html:
+            datas = html.json()
+            # \s* 匹配空格，起到换行作用
+            for item in datas['RESULT']:
+                if item["ip"] and item["port"]:
+                    yield ':'.join([item.get("ip"), item.get("port")])
 
     def crawl_ip3366(self):
-        for page in range(1, 4):
+        for page in range(1, 8):
             start_url = 'http://www.ip3366.net/free/?stype=1&page={}'.format(page)
             html = get_page(start_url)
             ip_address = re.compile('<tr>\s*<td>(.*?)</td>\s*<td>(.*?)</td>')
             # \s * 匹配空格，起到换行作用
-            re_ip_address = ip_address.findall(html)
-            for address, port in re_ip_address:
-                result = address + ':' + port
-                yield result.replace(' ', '')
+            if html:
+                re_ip_address = ip_address.findall(html)
+                for address, port in re_ip_address:
+                    result = address + ':' + port
+                    yield result.replace(' ', '')
+            else:
+                break
 
     def crawl_kxdaili(self):
         for i in range(1, 11):
             start_url = 'http://www.kxdaili.com/ipList/{}.html#ip'.format(i)
             html = get_page(start_url)
-            ip_address = re.compile('<tr.*?>\s*<td>(.*?)</td>\s*<td>(.*?)</td>')
-            # \s* 匹配空格，起到换行作用
-            re_ip_address = ip_address.findall(html)
-            for address, port in re_ip_address:
-                result = address + ':' + port
-                yield result.replace(' ', '')
+            if html:
+                ip_address = re.compile('<tr.*?>\s*<td>(.*?)</td>\s*<td>(.*?)</td>')
+                # \s* 匹配空格，起到换行作用
+                re_ip_address = ip_address.findall(html)
+                for address, port in re_ip_address:
+                    result = address + ':' + port
+                    yield result.replace(' ', '')
+            else:
+                break
 
     def crawl_premproxy(self):
         for i in ['China-01', 'China-02', 'China-03', 'China-04', 'Taiwan-01']:
@@ -137,7 +171,7 @@ class Crawler(object, metaclass=ProxyMetaclass):
                     yield address_port.replace(' ', '')
 
     def crawl_kuaidaili(self):
-        for i in range(1, 4):
+        for i in range(1, 10):
             start_url = 'http://www.kuaidaili.com/free/inha/{}/'.format(i)
             html = get_page(start_url)
             if html:
@@ -150,7 +184,7 @@ class Crawler(object, metaclass=ProxyMetaclass):
                     yield address_port.replace(' ', '')
 
     def crawl_xicidaili(self):
-        for i in range(1, 3):
+        for i in range(1, 5):
             start_url = 'http://www.xicidaili.com/nn/{}'.format(i)
             headers = {
                 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
@@ -188,29 +222,29 @@ class Crawler(object, metaclass=ProxyMetaclass):
                         address_port = address + ':' + port
                         yield address_port.replace(' ', '')
 
-    def crawl_iphai(self):
-        start_url = 'http://www.iphai.com/'
-        html = get_page(start_url)
-        if html:
-            find_tr = re.compile('<tr>(.*?)</tr>', re.S)
-            trs = find_tr.findall(html)
-            for s in range(1, len(trs)):
-                find_ip = re.compile('<td>\s+(\d+\.\d+\.\d+\.\d+)\s+</td>', re.S)
-                re_ip_address = find_ip.findall(trs[s])
-                find_port = re.compile('<td>\s+(\d+)\s+</td>', re.S)
-                re_port = find_port.findall(trs[s])
-                for address, port in zip(re_ip_address, re_port):
-                    address_port = address + ':' + port
-                    yield address_port.replace(' ', '')
+    # def crawl_iphai(self):
+    #     start_url = 'http://www.iphai.com/'
+    #     html = get_page(start_url)
+    #     if html:
+    #         find_tr = re.compile('<tr>(.*?)</tr>', re.S)
+    #         trs = find_tr.findall(html)
+    #         for s in range(1, len(trs)):
+    #             find_ip = re.compile('<td>\s+(\d+\.\d+\.\d+\.\d+)\s+</td>', re.S)
+    #             re_ip_address = find_ip.findall(trs[s])
+    #             find_port = re.compile('<td>\s+(\d+)\s+</td>', re.S)
+    #             re_port = find_port.findall(trs[s])
+    #             for address, port in zip(re_ip_address, re_port):
+    #                 address_port = address + ':' + port
+    #                 yield address_port.replace(' ', '')
 
-    def crawl_89ip(self):
-        start_url = 'http://www.89ip.cn/apijk/?&tqsl=1000&sxa=&sxb=&tta=&ports=&ktip=&cf=1'
-        html = get_page(start_url)
-        if html:
-            find_ips = re.compile('(\d+\.\d+\.\d+\.\d+:\d+)', re.S)
-            ip_ports = find_ips.findall(html)
-            for address_port in ip_ports:
-                yield address_port
+    # def crawl_89ip(self):
+    #     start_url = 'http://www.89ip.cn/apijk/?&tqsl=1000&sxa=&sxb=&tta=&ports=&ktip=&cf=1'
+    #     html = get_page(start_url)
+    #     if html:
+    #         find_ips = re.compile('(\d+\.\d+\.\d+\.\d+:\d+)', re.S)
+    #         ip_ports = find_ips.findall(html)
+    #         for address_port in ip_ports:
+    #             yield address_port
 
     def crawl_data5u(self):
         start_url = 'http://www.data5u.com/free/gngn/index.shtml'

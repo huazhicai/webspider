@@ -1,3 +1,6 @@
+"""
+工具模块，网页下载器
+"""
 import requests
 from requests.exceptions import ConnectionError
 
@@ -22,6 +25,7 @@ def get_page(url, options={}):
         print('抓取成功', url, response.status_code)
         if response.status_code == 200:
             return response.text
-    except ConnectionError:
-        print('抓取失败', url)
+    # except ConnectionError:
+    except BaseException as e:
+        print('抓取失败: %s' % e, url)
         return None
