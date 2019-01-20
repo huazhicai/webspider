@@ -9,6 +9,7 @@
       <module fileurl="file://$PROJECT_DIR$/../seleniumtest/.idea/seleniumtest.iml" filepath="$PROJECT_DIR$/../seleniumtest/.idea/seleniumtest.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/tutorial.iml" filepath="$PROJECT_DIR$/.idea/tutorial.iml" />
       <module fileurl="file://$PROJECT_DIR$/../universal/.idea/universal.iml" filepath="$PROJECT_DIR$/../universal/.idea/universal.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../weibo/.idea/weibo.iml" filepath="$PROJECT_DIR$/../weibo/.idea/weibo.iml" />
     </modules>
   </component>
 </project>
