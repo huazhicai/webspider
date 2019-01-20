@@ -8,6 +8,7 @@
     <orderEntry type="module" module-name="images360" />
     <orderEntry type="module" module-name="seleniumtest" />
     <orderEntry type="module" module-name="universal" />
+    <orderEntry type="module" module-name="examp_redis" />
   </component>
   <component name="TestRunnerService">
     <option name="PROJECT_TEST_RUNNER" value="Unittests" />
