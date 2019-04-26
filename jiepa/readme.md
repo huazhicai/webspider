@@ -19,3 +19,14 @@
       ![图集排版](3.png)
     
     - 可以通过abstract来区分,abstract为空的就是图集排版， 然后利用正则表达式提取图片的url
+    
+- **保存文件**
+    - 二进制文件写入，为防止重复，使用md5命名
+    
+- **遇到的问题**
+    - ajax里的数据，图片的url不全，且是模糊的小图，因此需要详情页提取url，两种详情页
+    返回的response body格式不一，需要分别用正则提取
+    
+    - 图片量大，而且重爬会重复，因此，考虑用md5加密的命名方式来命名
+    
+[源码链接](https://github.com/huazhicai/Python3WebSpider/tree/master/jiepai)
