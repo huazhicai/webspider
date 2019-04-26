@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/../downloadertest/.idea/downloadertest.iml" filepath="$PROJECT_DIR$/../downloadertest/.idea/downloadertest.iml" />
       <module fileurl="file://$PROJECT_DIR$/../examp_redis/.idea/examp_redis.iml" filepath="$PROJECT_DIR$/../examp_redis/.idea/examp_redis.iml" />
       <module fileurl="file://$PROJECT_DIR$/../images360/.idea/images360.iml" filepath="$PROJECT_DIR$/../images360/.idea/images360.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../jiepa/.idea/jiepa.iml" filepath="$PROJECT_DIR$/../jiepa/.idea/jiepa.iml" />
       <module fileurl="file://$PROJECT_DIR$/../scrapy_redis/.idea/scrapyRedis.iml" filepath="$PROJECT_DIR$/../scrapy_redis/.idea/scrapyRedis.iml" />
       <module fileurl="file://$PROJECT_DIR$/../seleniumtest/.idea/seleniumtest.iml" filepath="$PROJECT_DIR$/../seleniumtest/.idea/seleniumtest.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/tutorial.iml" filepath="$PROJECT_DIR$/.idea/tutorial.iml" />
