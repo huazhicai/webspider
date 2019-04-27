@@ -4,7 +4,7 @@ MONGO_COLLECTION = 'products'
 
 KEYWORD = 'ipad'
 
-MAX_PAGE = 100
+MAX_PAGE = 5
 
 
 # 设置缓存和禁用图片加载功能

@@ -29,4 +29,4 @@
     
     - 图片量大，而且重爬会重复，因此，考虑用md5加密的命名方式来命名
     
-[源码链接](https://github.com/huazhicai/Python3WebSpider/tree/master/jiepai)
+[源码链接](https://github.com/huazhicai/Python3WebSpider/tree/master/jiepa)

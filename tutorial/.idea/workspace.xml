@@ -2,6 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="48f3f120-30dc-4fc7-b13a-ad6b44084b96" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../taobao/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../taobao/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../taobao/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../taobao/.idea/taobao.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../taobao/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../taobao/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../taobao/spider2.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../albumy" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../bluelog" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../flaskr/.gitignore" afterDir="false" />
@@ -173,6 +180,10 @@
       <change afterPath="$PROJECT_DIR$/../../sayhello/temp.md" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../todoism" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../jiepa/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/../jiepa/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../taobao/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/../taobao/config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/tutorial.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/tutorial.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -182,6 +193,7 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/tutorial$spider.coverage" NAME="spider Coverage Results" MODIFIED="1556251769242" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../../jiepa" />
+    <SUITE FILE_PATH="coverage/tutorial$spider2.coverage" NAME="spider2 Coverage Results" MODIFIED="1556353829675" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../taobao" />
     <SUITE FILE_PATH="coverage/tutorial$run.coverage" NAME="run Coverage Results" MODIFIED="1556101793777" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../examp_redis" />
   </component>
   <component name="FUSProjectUsageTrigger">
@@ -204,8 +216,8 @@
           <entry key="cfg" value="71" />
           <entry key="gitignore" value="6" />
           <entry key="json" value="38" />
-          <entry key="md" value="6108" />
-          <entry key="py" value="20143" />
+          <entry key="md" value="6296" />
+          <entry key="py" value="21800" />
           <entry key="yml" value="89" />
         </counts>
       </usages-collector>
@@ -214,9 +226,9 @@
           <entry key="Dockerfile" value="62" />
           <entry key="Ini" value="71" />
           <entry key="JSON" value="38" />
-          <entry key="Markdown" value="6108" />
+          <entry key="Markdown" value="6296" />
           <entry key="PLAIN_TEXT" value="95" />
-          <entry key="Python" value="20143" />
+          <entry key="Python" value="21800" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -226,9 +238,9 @@
           <entry key="gitignore" value="1" />
           <entry key="jpg" value="23" />
           <entry key="json" value="3" />
-          <entry key="md" value="13" />
+          <entry key="md" value="14" />
           <entry key="png" value="2" />
-          <entry key="py" value="77" />
+          <entry key="py" value="84" />
           <entry key="yml" value="1" />
         </counts>
       </usages-collector>
@@ -238,9 +250,9 @@
           <entry key="Image" value="25" />
           <entry key="Ini" value="1" />
           <entry key="JSON" value="3" />
-          <entry key="Markdown" value="13" />
+          <entry key="Markdown" value="14" />
           <entry key="PLAIN_TEXT" value="2" />
-          <entry key="Python" value="77" />
+          <entry key="Python" value="84" />
         </counts>
       </usages-collector>
     </session>
@@ -250,8 +262,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../jiepa/spider.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-669">
-              <caret line="87" column="52" lean-forward="true" selection-start-line="87" selection-start-column="52" selection-end-line="87" selection-end-column="52" />
+            <state relative-caret-position="1740">
+              <caret line="87" column="52" selection-start-line="87" selection-start-column="52" selection-end-line="87" selection-end-column="52" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
               </folding>
@@ -259,14 +271,51 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../taobao/spider.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
+              <folding>
+                <element signature="e#0#14#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../jiepa/readme.md">
+        <entry file="file://$PROJECT_DIR$/../taobao/spider2.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1600">
+              <caret line="80" column="41" selection-start-line="80" selection-start-column="41" selection-end-line="80" selection-end-column="41" />
+              <folding>
+                <element signature="e#0#9#0" expanded="true" />
+                <marker date="1556354200873" expanded="true" signature="914:919" ph="..." />
+                <marker date="1556354200873" expanded="true" signature="1817:2403" ph="..." />
+                <marker date="1556354200873" expanded="true" signature="2431:2607" ph="..." />
+                <marker date="1556354200873" expanded="true" signature="2731:2732" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../taobao/readme.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="460">
-                <caret line="23" column="14" selection-start-line="23" selection-start-column="14" selection-end-line="23" selection-end-column="14" />
+              <first_editor relative-caret-position="260">
+                <caret line="13" column="12" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
               </first_editor>
               <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../taobao/config.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="160">
+              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
             </state>
           </provider>
         </entry>
@@ -300,9 +349,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/../downloadertest/downloadertest/middlewares.py" />
-        <option value="$PROJECT_DIR$/../downloadertest/readme.md" />
-        <option value="$PROJECT_DIR$/../images360/images360/items.py" />
         <option value="$PROJECT_DIR$/../images360/images360/spiders/images.py" />
         <option value="$PROJECT_DIR$/../images360/readme.md" />
         <option value="$PROJECT_DIR$/../images360/images360/pipelines.py" />
@@ -351,6 +397,9 @@
         <option value="$PROJECT_DIR$/../../jiepa/spider.py" />
         <option value="$PROJECT_DIR$/../jiepa/spider.py" />
         <option value="$PROJECT_DIR$/../jiepa/readme.md" />
+        <option value="$PROJECT_DIR$/../taobao/readme.md" />
+        <option value="$PROJECT_DIR$/../taobao/config.py" />
+        <option value="$PROJECT_DIR$/../taobao/spider2.py" />
       </list>
     </option>
   </component>
@@ -360,10 +409,10 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="745" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="769" />
     <option name="y" value="9" />
-    <option name="width" value="702" />
+    <option name="width" value="678" />
     <option name="height" value="867" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -380,7 +429,7 @@
           <expand>
             <path>
               <item name="tutorial" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jiepa" type="462c0819:PsiDirectoryNode" />
+              <item name="taobao" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -417,7 +466,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.spider2">
     <configuration name="run" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="examp_redis" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -440,8 +489,35 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="spider2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="taobao" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../taobao" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../taobao/spider2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.run" />
+      <item itemvalue="Python.spider2" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.spider2" />
         <item itemvalue="Python.run" />
       </list>
     </recent_temporary>
@@ -460,15 +536,15 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
+    <frame x="769" y="9" width="678" height="867" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.245702" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20711975" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32891247" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.42201835" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.48178136" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.43905637" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -539,55 +615,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../examp_redis/run.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="4" column="55" selection-start-line="4" selection-start-column="55" selection-end-line="4" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../examp_redis/examp_redis/spiders/mysqpider_redis.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://E:/Anaconda3/Lib/site-packages/scrapy/settings/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5620">
-          <caret line="292" selection-start-line="292" selection-end-line="292" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://E:/Anaconda3/Lib/site-packages/scrapy/utils/project.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1420">
-          <caret line="80" selection-start-line="80" selection-end-line="80" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://E:/Anaconda3/Lib/importlib/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2500">
-          <caret line="126" selection-start-line="126" selection-end-line="126" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../examp_redis/docker-compose.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="3" column="17" lean-forward="true" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../examp_redis/Dockerfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="3" column="21" lean-forward="true" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../weibo/weibo/spiders/weibocn.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2780">
@@ -795,26 +822,88 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../jiepa/spider.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-669">
-          <caret line="87" column="52" lean-forward="true" selection-start-line="87" selection-start-column="52" selection-end-line="87" selection-end-column="52" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../jiepa/1.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/../jiepa/readme.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="460">
-            <caret line="23" column="14" selection-start-line="23" selection-start-column="14" selection-end-line="23" selection-end-column="14" />
+          <first_editor relative-caret-position="620">
+            <caret line="31" column="70" selection-start-line="31" selection-start-column="70" selection-end-line="31" selection-end-column="70" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../jiepa/spider.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1740">
+          <caret line="87" column="52" selection-start-line="87" selection-start-column="52" selection-end-line="87" selection-end-column="52" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../taobao/spider.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../taobao/readme.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="260">
+            <caret line="13" column="12" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../taobao/config.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/Anaconda3/Lib/site-packages/selenium/webdriver/chrome/webdriver.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="32" column="8" selection-start-line="32" selection-start-column="8" selection-end-line="32" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/Anaconda3/Lib/site-packages/selenium/webdriver/remote/webdriver.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="879" column="8" selection-start-line="879" selection-start-column="8" selection-end-line="879" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/Anaconda3/Lib/site-packages/selenium/webdriver/chrome/options.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3446">
+          <caret line="28" column="8" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../taobao/spider2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1600">
+          <caret line="80" column="41" selection-start-line="80" selection-start-column="41" selection-end-line="80" selection-end-column="41" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+            <marker date="1556354200873" expanded="true" signature="914:919" ph="..." />
+            <marker date="1556354200873" expanded="true" signature="1817:2403" ph="..." />
+            <marker date="1556354200873" expanded="true" signature="2431:2607" ph="..." />
+            <marker date="1556354200873" expanded="true" signature="2731:2732" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -11,7 +11,7 @@
     <orderEntry type="module" module-name="examp_redis" />
     <orderEntry type="module" module-name="weibo" />
     <orderEntry type="module" module-name="jiepa" />
-    <orderEntry type="module" module-name="jiepa" />
+    <orderEntry type="module" module-name="taobao" />
   </component>
   <component name="TestRunnerService">
     <option name="PROJECT_TEST_RUNNER" value="Unittests" />

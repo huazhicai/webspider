@@ -8,6 +8,7 @@
       <module fileurl="file://$PROJECT_DIR$/../jiepa/.idea/jiepa.iml" filepath="$PROJECT_DIR$/../jiepa/.idea/jiepa.iml" />
       <module fileurl="file://$PROJECT_DIR$/../scrapy_redis/.idea/scrapyRedis.iml" filepath="$PROJECT_DIR$/../scrapy_redis/.idea/scrapyRedis.iml" />
       <module fileurl="file://$PROJECT_DIR$/../seleniumtest/.idea/seleniumtest.iml" filepath="$PROJECT_DIR$/../seleniumtest/.idea/seleniumtest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../taobao/.idea/taobao.iml" filepath="$PROJECT_DIR$/../taobao/.idea/taobao.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/tutorial.iml" filepath="$PROJECT_DIR$/.idea/tutorial.iml" />
       <module fileurl="file://$PROJECT_DIR$/../universal/.idea/universal.iml" filepath="$PROJECT_DIR$/../universal/.idea/universal.iml" />
       <module fileurl="file://$PROJECT_DIR$/../weibo/.idea/weibo.iml" filepath="$PROJECT_DIR$/../weibo/.idea/weibo.iml" />
