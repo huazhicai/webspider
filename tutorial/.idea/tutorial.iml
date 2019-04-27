@@ -12,6 +12,8 @@
     <orderEntry type="module" module-name="weibo" />
     <orderEntry type="module" module-name="jiepa" />
     <orderEntry type="module" module-name="taobao" />
+    <orderEntry type="module" module-name="Python3WebSpider" />
+    <orderEntry type="module" module-name="beautifulsoup" />
   </component>
   <component name="TestRunnerService">
     <option name="PROJECT_TEST_RUNNER" value="Unittests" />

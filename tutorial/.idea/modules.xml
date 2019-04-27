@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/../.idea/Python3WebSpider.iml" filepath="$PROJECT_DIR$/../.idea/Python3WebSpider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../beautifulsoup/.idea/beautifulsoup.iml" filepath="$PROJECT_DIR$/../beautifulsoup/.idea/beautifulsoup.iml" />
       <module fileurl="file://$PROJECT_DIR$/../downloadertest/.idea/downloadertest.iml" filepath="$PROJECT_DIR$/../downloadertest/.idea/downloadertest.iml" />
       <module fileurl="file://$PROJECT_DIR$/../examp_redis/.idea/examp_redis.iml" filepath="$PROJECT_DIR$/../examp_redis/.idea/examp_redis.iml" />
       <module fileurl="file://$PROJECT_DIR$/../images360/.idea/images360.iml" filepath="$PROJECT_DIR$/../images360/.idea/images360.iml" />
