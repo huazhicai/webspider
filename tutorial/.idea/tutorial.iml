@@ -14,6 +14,7 @@
     <orderEntry type="module" module-name="taobao" />
     <orderEntry type="module" module-name="Python3WebSpider" />
     <orderEntry type="module" module-name="beautifulsoup" />
+    <orderEntry type="module" module-name="maoyan" />
   </component>
   <component name="TestRunnerService">
     <option name="PROJECT_TEST_RUNNER" value="Unittests" />
