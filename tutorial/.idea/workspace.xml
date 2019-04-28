@@ -2,12 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="48f3f120-30dc-4fc7-b13a-ad6b44084b96" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../mysql/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mysql/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mysql/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mysql/.idea/mysql.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mysql/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mysql/demo1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../github/.idea/github.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../github/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../github/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../github/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../github/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../github/login.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../github/readme.md" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../albumy" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../bluelog" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../flaskr/.gitignore" afterDir="false" />
@@ -189,6 +190,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/tutorial$login.coverage" NAME="login Coverage Results" MODIFIED="1556431871108" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../github" />
     <SUITE FILE_PATH="coverage/tutorial$demo4.coverage" NAME="demo4 Coverage Results" MODIFIED="1556359908342" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../beautifulsoup" />
     <SUITE FILE_PATH="coverage/tutorial$demo1.coverage" NAME="demo1 Coverage Results" MODIFIED="1556420821866" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../mysql" />
     <SUITE FILE_PATH="coverage/tutorial$demo3.coverage" NAME="demo3 Coverage Results" MODIFIED="1556356240722" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../beautifulsoup" />
@@ -220,8 +222,8 @@
           <entry key="cfg" value="71" />
           <entry key="gitignore" value="6" />
           <entry key="json" value="38" />
-          <entry key="md" value="6591" />
-          <entry key="py" value="27304" />
+          <entry key="md" value="6741" />
+          <entry key="py" value="29466" />
           <entry key="yml" value="89" />
         </counts>
       </usages-collector>
@@ -230,9 +232,9 @@
           <entry key="Dockerfile" value="62" />
           <entry key="Ini" value="71" />
           <entry key="JSON" value="38" />
-          <entry key="Markdown" value="6591" />
+          <entry key="Markdown" value="6741" />
           <entry key="PLAIN_TEXT" value="95" />
-          <entry key="Python" value="27304" />
+          <entry key="Python" value="29466" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -242,9 +244,9 @@
           <entry key="gitignore" value="1" />
           <entry key="jpg" value="23" />
           <entry key="json" value="3" />
-          <entry key="md" value="15" />
+          <entry key="md" value="17" />
           <entry key="png" value="2" />
-          <entry key="py" value="95" />
+          <entry key="py" value="96" />
           <entry key="txt" value="2" />
           <entry key="yml" value="1" />
         </counts>
@@ -255,9 +257,9 @@
           <entry key="Image" value="25" />
           <entry key="Ini" value="1" />
           <entry key="JSON" value="3" />
-          <entry key="Markdown" value="15" />
+          <entry key="Markdown" value="17" />
           <entry key="PLAIN_TEXT" value="4" />
-          <entry key="Python" value="95" />
+          <entry key="Python" value="96" />
         </counts>
       </usages-collector>
     </session>
@@ -268,10 +270,27 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../mysql/demo1.py">
+        <entry file="file://$PROJECT_DIR$/../github/login.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="24">
-              <caret line="38" column="6" lean-forward="true" selection-start-line="38" selection-start-column="6" selection-end-line="38" selection-end-column="6" />
+            <state relative-caret-position="154">
+              <caret line="43" column="96" lean-forward="true" selection-start-line="43" selection-start-column="96" selection-end-line="43" selection-end-column="96" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+                <marker date="1556431781450" expanded="true" signature="61:66" ph="..." />
+                <marker date="1556431781450" expanded="true" signature="582:800" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../github/readme.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="100">
+                <caret line="5" column="40" selection-start-line="5" selection-start-column="40" selection-end-line="5" selection-end-column="40" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -307,8 +326,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/../seleniumtest/spiders/taobao.py" />
-        <option value="$PROJECT_DIR$/../universal/universal/spiders/china.py" />
         <option value="$PROJECT_DIR$/../universal/universal/items.py" />
         <option value="$PROJECT_DIR$/../universal/readme.md" />
         <option value="$PROJECT_DIR$/../universal/config/china.json" />
@@ -358,6 +375,8 @@
         <option value="$PROJECT_DIR$/../mongodb/demo1.py" />
         <option value="$PROJECT_DIR$/../mongodb/demo2.py" />
         <option value="$PROJECT_DIR$/../mysql/demo1.py" />
+        <option value="$PROJECT_DIR$/../github/readme.md" />
+        <option value="$PROJECT_DIR$/../github/login.py" />
       </list>
     </option>
   </component>
@@ -367,9 +386,9 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="644" />
-    <option name="width" value="803" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="691" />
+    <option name="width" value="756" />
     <option name="height" value="867" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -400,6 +419,11 @@
             <path>
               <item name="tutorial" type="b2602c69:ProjectViewProjectNode" />
               <item name="Python3WebSpider" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tutorial" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Python3WebSpider" type="462c0819:PsiDirectoryNode" />
+              <item name="github" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -436,7 +460,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.demo1">
+  <component name="RunManager" selected="Python.login">
     <configuration name="demo1 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="mongodb" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -503,20 +527,20 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="demo4" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="beautifulsoup" />
+    <configuration name="login" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="github" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../beautifulsoup" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../github" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../beautifulsoup/demo4.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../github/login.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -549,18 +573,18 @@
     </configuration>
     <list>
       <item itemvalue="Python.spider" />
-      <item itemvalue="Python.demo4" />
       <item itemvalue="Python.demo1 (1)" />
       <item itemvalue="Python.demo2 (1)" />
       <item itemvalue="Python.demo1" />
+      <item itemvalue="Python.login" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.login" />
         <item itemvalue="Python.demo1" />
         <item itemvalue="Python.demo2 (1)" />
         <item itemvalue="Python.demo1 (1)" />
         <item itemvalue="Python.spider" />
-        <item itemvalue="Python.demo4" />
       </list>
     </recent_temporary>
   </component>
@@ -578,15 +602,15 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="644" y="0" width="803" height="867" extended-state="1" />
+    <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49932525" visible="true" weight="0.20076239" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49932525" weight="0.2554054" />
       <window_info id="Structure" order="1" sideWeight="0.5006748" side_tool="true" weight="0.1282235" />
       <window_info id="Favorites" order="2" sideWeight="0.5006748" side_tool="true" weight="0.1282235" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32891247" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.2917772" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32896462" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3938992" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -662,14 +686,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/.virtualenvs/PycharmProjects-r2q1136f/Lib/site-packages/requests/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="386" selection-start-line="386" selection-end-line="386" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../jiepa/readme.md" />
     <entry file="file://$USER_HOME$/.virtualenvs/PycharmProjects-r2q1136f/Lib/re.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="245">
@@ -870,8 +886,30 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../mysql/demo1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
-          <caret line="38" column="6" lean-forward="true" selection-start-line="38" selection-start-column="6" selection-end-line="38" selection-end-column="6" />
+        <state relative-caret-position="330">
+          <caret line="43" column="1" selection-start-line="43" selection-start-column="1" selection-end-line="43" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../github/readme.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="100">
+            <caret line="5" column="40" selection-start-line="5" selection-start-column="40" selection-end-line="5" selection-end-column="40" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../github/login.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="43" column="96" lean-forward="true" selection-start-line="43" selection-start-column="96" selection-end-line="43" selection-end-column="96" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+            <marker date="1556431781450" expanded="true" signature="61:66" ph="..." />
+            <marker date="1556431781450" expanded="true" signature="582:800" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
