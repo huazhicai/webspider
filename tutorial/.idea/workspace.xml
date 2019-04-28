@@ -2,13 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="48f3f120-30dc-4fc7-b13a-ad6b44084b96" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../github/.idea/github.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../github/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../github/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../github/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../github/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../github/login.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../github/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cnki/.idea/cnki.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cnki/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cnki/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cnki/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cnki/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cnki/code.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cnki/code2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cnki/verify.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cnki/verify2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cnki/verify3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../github/zhihu.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../albumy" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../bluelog" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../flaskr/.gitignore" afterDir="false" />
@@ -195,6 +199,7 @@
     <SUITE FILE_PATH="coverage/tutorial$demo1.coverage" NAME="demo1 Coverage Results" MODIFIED="1556420821866" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../mysql" />
     <SUITE FILE_PATH="coverage/tutorial$demo3.coverage" NAME="demo3 Coverage Results" MODIFIED="1556356240722" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../beautifulsoup" />
     <SUITE FILE_PATH="coverage/tutorial$demo1__1_.coverage" NAME="demo1 (1) Coverage Results" MODIFIED="1556364864171" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../mongodb" />
+    <SUITE FILE_PATH="coverage/tutorial$verify.coverage" NAME="verify Coverage Results" MODIFIED="1556437450874" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../cnki" />
     <SUITE FILE_PATH="coverage/tutorial$spider.coverage" NAME="spider Coverage Results" MODIFIED="1556362537189" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../maoyan" />
     <SUITE FILE_PATH="coverage/tutorial$demo2.coverage" NAME="demo2 Coverage Results" MODIFIED="1556355251023" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../beautifulsoup" />
     <SUITE FILE_PATH="coverage/tutorial$spider2.coverage" NAME="spider2 Coverage Results" MODIFIED="1556353829675" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../taobao" />
@@ -205,15 +210,16 @@
     <session id="566042530">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="4" />
+          <entry key="project.closed" value="5" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.14" value="1" />
           <entry key="project.open.time.17" value="1" />
           <entry key="project.open.time.39" value="1" />
           <entry key="project.open.time.47" value="2" />
           <entry key="project.open.time.49" value="1" />
+          <entry key="project.open.time.60" value="1" />
           <entry key="project.open.time.70" value="1" />
-          <entry key="project.opened" value="8" />
+          <entry key="project.opened" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -222,8 +228,8 @@
           <entry key="cfg" value="71" />
           <entry key="gitignore" value="6" />
           <entry key="json" value="38" />
-          <entry key="md" value="6741" />
-          <entry key="py" value="29466" />
+          <entry key="md" value="6756" />
+          <entry key="py" value="30065" />
           <entry key="yml" value="89" />
         </counts>
       </usages-collector>
@@ -232,9 +238,9 @@
           <entry key="Dockerfile" value="62" />
           <entry key="Ini" value="71" />
           <entry key="JSON" value="38" />
-          <entry key="Markdown" value="6741" />
+          <entry key="Markdown" value="6756" />
           <entry key="PLAIN_TEXT" value="95" />
-          <entry key="Python" value="29466" />
+          <entry key="Python" value="30065" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -246,7 +252,7 @@
           <entry key="json" value="3" />
           <entry key="md" value="17" />
           <entry key="png" value="2" />
-          <entry key="py" value="96" />
+          <entry key="py" value="103" />
           <entry key="txt" value="2" />
           <entry key="yml" value="1" />
         </counts>
@@ -259,7 +265,7 @@
           <entry key="JSON" value="3" />
           <entry key="Markdown" value="17" />
           <entry key="PLAIN_TEXT" value="4" />
-          <entry key="Python" value="96" />
+          <entry key="Python" value="103" />
         </counts>
       </usages-collector>
     </session>
@@ -269,28 +275,49 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../github/login.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="43" column="96" lean-forward="true" selection-start-line="43" selection-start-column="96" selection-end-line="43" selection-end-column="96" />
+            <state relative-caret-position="980">
+              <caret line="50" column="26" selection-start-line="50" selection-start-column="26" selection-end-line="50" selection-end-column="26" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
-                <marker date="1556431781450" expanded="true" signature="61:66" ph="..." />
-                <marker date="1556431781450" expanded="true" signature="582:800" ph="..." />
+                <marker date="1556431953154" expanded="true" signature="61:66" ph="..." />
+                <marker date="1556431953154" expanded="true" signature="582:800" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../github/readme.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="100">
-                <caret line="5" column="40" selection-start-line="5" selection-start-column="40" selection-end-line="5" selection-end-column="40" />
-              </first_editor>
-              <second_editor />
+        <entry file="file://$PROJECT_DIR$/../cnki/verify.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="30" selection-start-column="30" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../cnki/verify3.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+              <folding>
+                <element signature="e#0#35#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://E:/Anaconda3/Lib/pytesseract/pytesseract.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="510">
+              <caret line="163" column="27" selection-start-line="163" selection-start-column="27" selection-end-line="163" selection-end-column="27" />
+              <folding>
+                <element signature="e#1865#1877#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -326,10 +353,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/../universal/universal/items.py" />
-        <option value="$PROJECT_DIR$/../universal/readme.md" />
-        <option value="$PROJECT_DIR$/../universal/config/china.json" />
-        <option value="$PROJECT_DIR$/../scrapy_redis/scrapy_redis/spiders/dmoz.py" />
         <option value="$PROJECT_DIR$/../scrapy_redis/scrapy_redis/items.py" />
         <option value="$PROJECT_DIR$/../scrapy_redis/scrapy_redis/pipelines.py" />
         <option value="$PROJECT_DIR$/../scrapy_redis/scrapy_redis/settings.py" />
@@ -375,8 +398,12 @@
         <option value="$PROJECT_DIR$/../mongodb/demo1.py" />
         <option value="$PROJECT_DIR$/../mongodb/demo2.py" />
         <option value="$PROJECT_DIR$/../mysql/demo1.py" />
-        <option value="$PROJECT_DIR$/../github/readme.md" />
         <option value="$PROJECT_DIR$/../github/login.py" />
+        <option value="$PROJECT_DIR$/../github/readme.md" />
+        <option value="$PROJECT_DIR$/../github/zhihu.py" />
+        <option value="$PROJECT_DIR$/../cnki/verify.py" />
+        <option value="$PROJECT_DIR$/../cnki/verify2.py" />
+        <option value="$PROJECT_DIR$/../cnki/verify3.py" />
       </list>
     </option>
   </component>
@@ -386,7 +413,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
     <option name="x" value="691" />
     <option name="width" value="756" />
     <option name="height" value="867" />
@@ -423,7 +450,34 @@
             <path>
               <item name="tutorial" type="b2602c69:ProjectViewProjectNode" />
               <item name="Python3WebSpider" type="462c0819:PsiDirectoryNode" />
+              <item name="cnki" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tutorial" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Python3WebSpider" type="462c0819:PsiDirectoryNode" />
               <item name="github" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tutorial" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="tutorial" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.7 &gt;" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="tutorial" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.7 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="Anaconda3" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tutorial" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.7 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="Anaconda3" type="462c0819:PsiDirectoryNode" />
+              <item name="Lib" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -440,12 +494,14 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\admin\PycharmProjects\Python3WebSpider\jiepa" />
-      <recent name="C:\Users\admin\PycharmProjects\Python3WebSpider\seleniumtest" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\admin\PycharmProjects\Python3WebSpider\examp_redis" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Anaconda3\Lib" />
+      <recent name="C:\Users\admin\PycharmProjects\Python3WebSpider\cnki" />
+      <recent name="C:\Users\admin\PycharmProjects\Python3WebSpider\jiepa" />
+      <recent name="C:\Users\admin\PycharmProjects\Python3WebSpider\seleniumtest" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -460,7 +516,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.login">
+  <component name="RunManager" selected="Python.verify">
     <configuration name="demo1 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="mongodb" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -549,20 +605,20 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="spider" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="maoyan" />
+    <configuration name="verify" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="cnki" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../maoyan" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../cnki" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../maoyan/spider.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../cnki/verify.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -572,19 +628,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.spider" />
       <item itemvalue="Python.demo1 (1)" />
       <item itemvalue="Python.demo2 (1)" />
       <item itemvalue="Python.demo1" />
       <item itemvalue="Python.login" />
+      <item itemvalue="Python.verify" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.verify" />
         <item itemvalue="Python.login" />
         <item itemvalue="Python.demo1" />
         <item itemvalue="Python.demo2 (1)" />
         <item itemvalue="Python.demo1 (1)" />
-        <item itemvalue="Python.spider" />
       </list>
     </recent_temporary>
   </component>
@@ -602,15 +658,15 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
+    <frame x="691" y="0" width="756" height="867" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49932525" weight="0.2554054" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49932525" visible="true" weight="0.3918919" />
       <window_info id="Structure" order="1" sideWeight="0.5006748" side_tool="true" weight="0.1282235" />
       <window_info id="Favorites" order="2" sideWeight="0.5006748" side_tool="true" weight="0.1282235" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32891247" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32896462" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32891247" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3938992" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -619,7 +675,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="File Transfer" order="9" weight="0.32503277" />
       <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.5079576" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.5066313" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" weight="0.327654" />
       <window_info anchor="bottom" id="Python Console" order="13" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -629,26 +685,28 @@
       <window_info anchor="right" id="Database" order="4" />
     </layout>
     <layout-to-restore>
-      <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="1" weight="0.25" />
-      <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="0" visible="true" weight="0.32891247" />
-      <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
-      <window_info anchor="bottom" id="Database Changes" order="2" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="3" />
-      <window_info anchor="bottom" id="Python Console" order="4" />
-      <window_info anchor="bottom" id="Message" order="5" />
-      <window_info anchor="bottom" id="Find" order="6" />
-      <window_info anchor="bottom" id="Run" order="7" />
-      <window_info anchor="bottom" id="Debug" order="8" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="11" />
-      <window_info anchor="right" id="Database" order="0" />
-      <window_info anchor="right" id="SciView" order="1" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="2" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="3" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="4" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49932525" visible="true" weight="0.2554054" />
+      <window_info id="Structure" order="1" sideWeight="0.5006748" side_tool="true" weight="0.1282235" />
+      <window_info id="Favorites" order="2" sideWeight="0.5006748" side_tool="true" weight="0.1282235" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32891247" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32896462" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3938992" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="File Transfer" order="9" weight="0.32503277" />
+      <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.5066313" />
+      <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" weight="0.327654" />
+      <window_info anchor="bottom" id="Python Console" order="13" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -686,18 +744,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/.virtualenvs/PycharmProjects-r2q1136f/Lib/re.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
-          <caret line="214" column="4" selection-start-line="214" selection-start-column="4" selection-end-line="214" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../jiepa/五一出游照如何称霸朋友圈？看街拍女王倪妮的这些街拍“小心机”/1f717b5aae478a3404e86dc4c5967efc.jpg" />
-    <entry file="file://$PROJECT_DIR$/../../jiepa/五一出游照如何称霸朋友圈？看街拍女王倪妮的这些街拍“小心机”/2a35b7a1f9a039a5dbebbe2b3f8700ff.jpg" />
-    <entry file="file://$PROJECT_DIR$/../../jiepa/街拍：美丽大方的小姑娘，称得上是千娇百媚了/e817d613b92269420ddb3f4e94d2fd3b.jpg" />
-    <entry file="file://$PROJECT_DIR$/../../jiepa/街拍：美丽大方的小姑娘，称得上是千娇百媚了/c3897b3f7760271c9704c80b3997e928.jpg" />
-    <entry file="file://$PROJECT_DIR$/../../jiepa/街拍：美丽大方的小姑娘，称得上是千娇百媚了/c386d0cfbda4dc3179904b7d8dbb0cb7.jpg" />
     <entry file="file://$PROJECT_DIR$/../../jiepa/街拍：美丽大方的小姑娘，称得上是千娇百媚了/6310742eea2c90eaa0650846f6007b13.jpg" />
     <entry file="file://$PROJECT_DIR$/../../jiepa/街拍：美丽大方的小姑娘，称得上是千娇百媚了/99f68933e50d1e38794ee1c8d2e51bd1.jpg" />
     <entry file="file://$PROJECT_DIR$/../../jiepa/街拍：美丽大方的小姑娘，称得上是千娇百媚了/77f551afd3c93d6037a19bc75f2668fd.jpg" />
@@ -875,12 +921,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="344">
           <caret line="52" selection-start-line="52" selection-end-line="52" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-            <marker date="1556362339640" expanded="true" signature="109:320" ph="..." />
-            <marker date="1556362339640" expanded="true" signature="1415:1539" ph="..." />
-            <marker date="1556362339640" expanded="true" signature="1556:1561" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -894,21 +934,69 @@
     <entry file="file://$PROJECT_DIR$/../github/readme.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="100">
-            <caret line="5" column="40" selection-start-line="5" selection-start-column="40" selection-end-line="5" selection-end-column="40" />
+          <first_editor relative-caret-position="160">
+            <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../github/zhihu.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/Anaconda3/Lib/pytesseract/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/../github/login.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="43" column="96" lean-forward="true" selection-start-line="43" selection-start-column="96" selection-end-line="43" selection-end-column="96" />
+        <state relative-caret-position="980">
+          <caret line="50" column="26" selection-start-line="50" selection-start-column="26" selection-end-line="50" selection-end-column="26" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
-            <marker date="1556431781450" expanded="true" signature="61:66" ph="..." />
-            <marker date="1556431781450" expanded="true" signature="582:800" ph="..." />
+            <marker date="1556431953154" expanded="true" signature="61:66" ph="..." />
+            <marker date="1556431953154" expanded="true" signature="582:800" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/Anaconda3/Lib/pytesseract/pytesseract.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="163" column="27" selection-start-line="163" selection-start-column="27" selection-end-line="163" selection-end-column="27" />
+          <folding>
+            <element signature="e#1865#1877#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../cnki/verify2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../cnki/verify.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="30" selection-start-column="30" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../cnki/verify3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
           </folding>
         </state>
       </provider>
