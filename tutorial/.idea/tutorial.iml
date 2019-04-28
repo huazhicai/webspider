@@ -16,6 +16,7 @@
     <orderEntry type="module" module-name="beautifulsoup" />
     <orderEntry type="module" module-name="maoyan" />
     <orderEntry type="module" module-name="mongodb" />
+    <orderEntry type="module" module-name="mysql" />
   </component>
   <component name="TestRunnerService">
     <option name="PROJECT_TEST_RUNNER" value="Unittests" />
