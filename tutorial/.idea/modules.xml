@@ -9,6 +9,7 @@
       <module fileurl="file://$PROJECT_DIR$/../images360/.idea/images360.iml" filepath="$PROJECT_DIR$/../images360/.idea/images360.iml" />
       <module fileurl="file://$PROJECT_DIR$/../jiepa/.idea/jiepa.iml" filepath="$PROJECT_DIR$/../jiepa/.idea/jiepa.iml" />
       <module fileurl="file://$PROJECT_DIR$/../maoyan/.idea/maoyan.iml" filepath="$PROJECT_DIR$/../maoyan/.idea/maoyan.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../mongodb/.idea/mongodb.iml" filepath="$PROJECT_DIR$/../mongodb/.idea/mongodb.iml" />
       <module fileurl="file://$PROJECT_DIR$/../scrapy_redis/.idea/scrapyRedis.iml" filepath="$PROJECT_DIR$/../scrapy_redis/.idea/scrapyRedis.iml" />
       <module fileurl="file://$PROJECT_DIR$/../seleniumtest/.idea/seleniumtest.iml" filepath="$PROJECT_DIR$/../seleniumtest/.idea/seleniumtest.iml" />
       <module fileurl="file://$PROJECT_DIR$/../taobao/.idea/taobao.iml" filepath="$PROJECT_DIR$/../taobao/.idea/taobao.iml" />
