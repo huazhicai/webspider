@@ -2,17 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="48f3f120-30dc-4fc7-b13a-ad6b44084b96" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../cnki/.idea/cnki.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../cnki/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../cnki/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../cnki/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../cnki/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../cnki/code.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../cnki/code2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../cnki/verify.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../cnki/verify2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../cnki/verify3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../github/zhihu.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../albumy" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../bluelog" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../flaskr/.gitignore" afterDir="false" />
@@ -183,8 +172,11 @@
       <change afterPath="$PROJECT_DIR$/../../sayhello/readme.md" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../sayhello/temp.md" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../todoism" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/tutorial.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/tutorial.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cnki/.idea/cnki.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../cnki/.idea/cnki.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cnki/verify.py" beforeDir="false" afterPath="$PROJECT_DIR$/../cnki/verify.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cnki/verify2.py" beforeDir="false" afterPath="$PROJECT_DIR$/../cnki/verify2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cnki/verify3.py" beforeDir="false" afterPath="$PROJECT_DIR$/../cnki/verify3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../github/zhihu.py" beforeDir="false" afterPath="$PROJECT_DIR$/../github/zhihu.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -210,16 +202,17 @@
     <session id="566042530">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="5" />
+          <entry key="project.closed" value="6" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.14" value="1" />
           <entry key="project.open.time.17" value="1" />
           <entry key="project.open.time.39" value="1" />
           <entry key="project.open.time.47" value="2" />
           <entry key="project.open.time.49" value="1" />
+          <entry key="project.open.time.51" value="1" />
           <entry key="project.open.time.60" value="1" />
           <entry key="project.open.time.70" value="1" />
-          <entry key="project.opened" value="9" />
+          <entry key="project.opened" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -229,7 +222,7 @@
           <entry key="gitignore" value="6" />
           <entry key="json" value="38" />
           <entry key="md" value="6756" />
-          <entry key="py" value="30065" />
+          <entry key="py" value="30088" />
           <entry key="yml" value="89" />
         </counts>
       </usages-collector>
@@ -240,7 +233,7 @@
           <entry key="JSON" value="38" />
           <entry key="Markdown" value="6756" />
           <entry key="PLAIN_TEXT" value="95" />
-          <entry key="Python" value="30065" />
+          <entry key="Python" value="30088" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -301,8 +294,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../cnki/verify3.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+            <state relative-caret-position="440">
+              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
               </folding>
@@ -313,7 +306,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://E:/Anaconda3/Lib/pytesseract/pytesseract.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
+            <state relative-caret-position="3180">
               <caret line="163" column="27" selection-start-line="163" selection-start-column="27" selection-end-line="163" selection-end-column="27" />
               <folding>
                 <element signature="e#1865#1877#0" expanded="true" />
@@ -413,7 +406,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="691" />
     <option name="width" value="756" />
     <option name="height" value="867" />
@@ -658,10 +651,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="691" y="0" width="756" height="867" extended-state="0" />
+    <frame x="-8" y="-8" width="1456" height="876" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49932525" visible="true" weight="0.3918919" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49932525" visible="true" weight="0.2013889" />
       <window_info id="Structure" order="1" sideWeight="0.5006748" side_tool="true" weight="0.1282235" />
       <window_info id="Favorites" order="2" sideWeight="0.5006748" side_tool="true" weight="0.1282235" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -955,6 +948,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../cnki/verify2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/../github/login.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="980">
@@ -967,23 +967,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://E:/Anaconda3/Lib/pytesseract/pytesseract.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="163" column="27" selection-start-line="163" selection-start-column="27" selection-end-line="163" selection-end-column="27" />
-          <folding>
-            <element signature="e#1865#1877#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../cnki/verify2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../cnki/verify.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -991,10 +974,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://E:/Anaconda3/Lib/pytesseract/pytesseract.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3180">
+          <caret line="163" column="27" selection-start-line="163" selection-start-column="27" selection-end-line="163" selection-end-column="27" />
+          <folding>
+            <element signature="e#1865#1877#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/../cnki/verify3.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        <state relative-caret-position="440">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
           <folding>
             <element signature="e#0#35#0" expanded="true" />
           </folding>
