@@ -19,6 +19,7 @@
     <orderEntry type="module" module-name="mysql" />
     <orderEntry type="module" module-name="github" />
     <orderEntry type="module" module-name="cnki" />
+    <orderEntry type="module" module-name="proxypool" />
   </component>
   <component name="TestRunnerService">
     <option name="PROJECT_TEST_RUNNER" value="Unittests" />
