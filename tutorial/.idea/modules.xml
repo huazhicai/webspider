@@ -20,6 +20,7 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/tutorial.iml" filepath="$PROJECT_DIR$/.idea/tutorial.iml" />
       <module fileurl="file://$PROJECT_DIR$/../universal/.idea/universal.iml" filepath="$PROJECT_DIR$/../universal/.idea/universal.iml" />
       <module fileurl="file://$PROJECT_DIR$/../weibo/.idea/weibo.iml" filepath="$PROJECT_DIR$/../weibo/.idea/weibo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../weixin/.idea/weixin.iml" filepath="$PROJECT_DIR$/../weixin/.idea/weixin.iml" />
     </modules>
   </component>
 </project>
