@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-# Scrapy settings for images360 project
+# Scrapy settings for zhiuser project
 #
 # For simplicity, this file contains only settings considered important or
 # commonly used. You can find more settings consulting the documentation:
@@ -9,13 +9,13 @@
 #     https://doc.scrapy.org/en/latest/topics/downloader-middleware.html
 #     https://doc.scrapy.org/en/latest/topics/spider-middleware.html
 
-BOT_NAME = 'images360'
+BOT_NAME = 'zhiuser'
 
-SPIDER_MODULES = ['images360.spiders']
-NEWSPIDER_MODULE = 'images360.spiders'
+SPIDER_MODULES = ['zhiuser.spiders']
+NEWSPIDER_MODULE = 'zhiuser.spiders'
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
-# USER_AGENT = 'images360 (+http://www.yourdomain.com)'
+# USER_AGENT = 'zhiuser (+http://www.yourdomain.com)'
 
 # Obey robots.txt rules
 ROBOTSTXT_OBEY = False
@@ -38,21 +38,23 @@ DOWNLOAD_DELAY = 3
 # TELNETCONSOLE_ENABLED = False
 
 # Override the default request headers:
-# DEFAULT_REQUEST_HEADERS = {
-#   'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
-#   'Accept-Language': 'en',
-# }
+DEFAULT_REQUEST_HEADERS = {
+  'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'Accept-Language': 'en',
+  'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36',
+  ':authority:': 'www.zhihu.com'
+}
 
 # Enable or disable spider middlewares
 # See https://doc.scrapy.org/en/latest/topics/spider-middleware.html
 # SPIDER_MIDDLEWARES = {
-#    'images360.middlewares.Images360SpiderMiddleware': 543,
+#    'zhiuser.middlewares.ZhiuserSpiderMiddleware': 543,
 # }
 
 # Enable or disable downloader middlewares
 # See https://doc.scrapy.org/en/latest/topics/downloader-middleware.html
 # DOWNLOADER_MIDDLEWARES = {
-#    'images360.middlewares.Images360DownloaderMiddleware': 543,
+#    'zhiuser.middlewares.ZhiuserDownloaderMiddleware': 543,
 # }
 
 # Enable or disable extensions
@@ -64,9 +66,7 @@ DOWNLOAD_DELAY = 3
 # Configure item pipelines
 # See https://doc.scrapy.org/en/latest/topics/item-pipeline.html
 ITEM_PIPELINES = {
-   # 'images360.pipelines.MongoPipeline': 300,
-   # 'images360.pipelines.MysqlPipeline': 300,
-   'images360.pipelines.ImagePipeline': 300,
+   'zhiuser.pipelines.MongoPipeline': 300,
 }
 
 # Enable and configure the AutoThrottle extension (disabled by default)
@@ -90,16 +90,5 @@ ITEM_PIPELINES = {
 # HTTPCACHE_IGNORE_HTTP_CODES = []
 # HTTPCACHE_STORAGE = 'scrapy.extensions.httpcache.FilesystemCacheStorage'
 
-# 爬取的页数
-MAX_PAGE = 50
-
 MONGO_URI = '192.168.11.138'
-MONGO_DB = 'image'
-
-MYSQL_HOST = '192.168.11.138'
-MYSQL_USER = 'root'
-MYSQL_PASSWORD = '654321'
-MYSQL_DATABASE = 'bluelog'
-MYSQL_PORT = 3306
-
-IMAGES_STORE = './images'
+MONGO_DB = 'test'
