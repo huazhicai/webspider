@@ -3,14 +3,14 @@
 # Define here the models for your scraped items
 #
 # See documentation in:
-# https://doc.scrapy.org/en/latest/topics/items.html
+# http://doc.scrapy.org/en/latest/topics/items.html
 
 from scrapy import Item, Field
 
 
 class UserItem(Item):
     collection = 'users'
-
+    
     id = Field()
     name = Field()
     avatar = Field()
@@ -30,7 +30,7 @@ class UserItem(Item):
 
 class UserRelationItem(Item):
     collection = 'users'
-
+    
     id = Field()
     follows = Field()
     fans = Field()
@@ -38,7 +38,7 @@ class UserRelationItem(Item):
 
 class WeiboItem(Item):
     collection = 'weibos'
-
+    
     id = Field()
     attitudes_count = Field()
     comments_count = Field()
@@ -52,3 +52,5 @@ class WeiboItem(Item):
     user = Field()
     created_at = Field()
     crawled_at = Field()
+
+

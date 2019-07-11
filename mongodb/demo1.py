@@ -1,21 +1,21 @@
 import pymongo
 from pymongo import MongoClient
 
-client = pymongo.MongoClient(host='192.168.11.138', port=27017)
+client = pymongo.MongoClient(host='localhost', port=27017)
 
-# client = MongoClient('mongodb://localhost:27017')
+# client = MongoClient('mongodb://localhost:27017/')
 
 db = client.test
 # db = client['test']
 
 collection = db.students
 
-# collection = db['student']
+# collection = db['students']
 
 student = {
-    'id': '20180102',
+    'id': '20170101',
     'name': 'Jordan',
-    'age': 28,
+    'age': 20,
     'gender': 'male'
 }
 
@@ -35,6 +35,7 @@ student2 = {
     'age': 21,
     'gender': 'male'
 }
+
 result = collection.insert([student1, student2])
 print(result)
 
@@ -67,3 +68,5 @@ student2 = {
 result = collection.insert_many([student1, student2])
 print(result)
 print(result.inserted_ids)
+
+

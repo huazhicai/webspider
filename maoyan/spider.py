@@ -1,9 +1,8 @@
 import json
+import requests
+from requests.exceptions import RequestException
 import re
 import time
-
-import requests
-from pyquery import PyQuery as pq
 
 
 def get_one_page(url):
@@ -12,7 +11,7 @@ def get_one_page(url):
         if response.status_code == 200:
             return response.text
         return None
-    except requests.exceptions.RequestException:
+    except RequestException:
         return None
 
 
@@ -32,20 +31,6 @@ def parse_one_page(html):
         }
 
 
-def parse_one_page2(html):
-    doc = pq(html)
-    items = doc('#app .board-wrapper dd').items()  # generator
-    for item in items:
-        yield {
-            'index': item('.board-index').text(),
-            'image': item('.board-img').attr('data-src'),
-            'title': item('a').attr('title'),
-            'actor': item('.star').text(),
-            'time': item('.releasetime').text(),
-            'score': item('.integer').text() + item('.fraction').text()
-        }
-
-
 def write_to_file(content):
     with open('result.txt', 'a', encoding='utf-8') as f:
         f.write(json.dumps(content, ensure_ascii=False) + '\n')
@@ -54,7 +39,7 @@ def write_to_file(content):
 def main(offset):
     url = 'http://maoyan.com/board/4?offset=' + str(offset)
     html = get_one_page(url)
-    for item in parse_one_page2(html):
+    for item in parse_one_page(html):
         print(item)
         write_to_file(item)
 
